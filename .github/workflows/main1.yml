@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name:  Check out code
-       uses: actions/checkout@v4
+      - name:  Check out code
+        uses: actions/checkout@v4
 
-      -name: Print message
-       run: echo "Hello Sohail, you first Github Actions workflow is working!"
+      - name: Print message
+        run: echo "Hello Sohail, you first Github Actions workflow is working!"
