@@ -1,0 +1,15 @@
+name: devlopement-workflow
+
+on: push
+
+jobs:
+  devlop-job:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name:  Check out code
+       uses: actions/checkout@v4
+
+     - name: Print message
+        run: echo "hello sohail bagali what you doing"
+    
