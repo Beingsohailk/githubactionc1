@@ -4,11 +4,11 @@ on: push
 
 jobs:
   demo-job1:
-  runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest 
 
- steps:
-   - name: check out code
-     uses: actions/checkout@v4
+    steps:
+     - name: check out code
+       uses: actions/checkout@v4
 
-   - name: Print message
-     run: echo "hello sohail bagali" 
+     - name: Print message
+       run: echo "hello sohail bagali" 
